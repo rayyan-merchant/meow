@@ -10,3 +10,10 @@ fact(b).
 
 
 
+has(bob,phone).
+has(alice,keys).
+has(alice,wallets).
+
+ready(X):-prepared(X).
+prepared(X):-has(X,phone),!,has(X,keys),has(X,wallet).
+prepared(X):-has(_,phone),!,has(_,keys),has(_,wallet). %this rule should always be true acc to our knowledge base but will never be used because of cut.
