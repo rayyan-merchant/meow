@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library location="Central Library">
+    <books>
+        <book id="1" isbn="978-0451524935" available="true">
+            <title>1984</title>
+            <author>George Orwell</author>
+            <year>1949</year>
+            <price>8.99</price>
+            <genre>Dystopian</genre>
+            <pages>328</pages>
+            <publisher>Secker &amp; Warburg</publisher>
+        </book>
+        <book id="2" isbn="978-0061120084" available="false">
+            <title>To Kill a Mockingbird</title>
+            <author>Harper Lee</author>
+            <year>1960</year>
+            <price>12.50</price>
+            <genre>Fiction</genre>
+            <pages>281</pages>
+            <publisher>J.B. Lippincott &amp; Co.</publisher>
+        </book>
+        <book id="3" isbn="978-0743273565" available="true">
+            <title>The Great Gatsby</title>
+            <author>F. Scott Fitzgerald</author>
+            <year>1925</year>
+            <price>10.25</price>
+            <genre>Classic</genre>
+            <pages>180</pages>
+            <publisher>Scribner</publisher>
+        </book>
+        <book id="4" isbn="978-0544003415" available="true">
+            <title>The Lord of the Rings</title>
+            <author>J.R.R. Tolkien</author>
+            <year>1954</year>
+            <price>22.99</price>
+            <genre>Fantasy</genre>
+            <pages>1178</pages>
+            <publisher>Allen &amp; Unwin</publisher>
+        </book>
+        <book id="5" isbn="978-1400033426" available="false">
+            <title>Brave New World</title>
+            <author>Aldous Huxley</author>
+            <year>1932</year>
+            <price>9.75</price>
+            <genre>Science Fiction</genre>
+            <pages>288</pages>
+            <publisher>Chatto &amp; Windus</publisher>
+        </book>
+        <book id="6" isbn="978-0141439518" available="true">
+            <title>Pride and Prejudice</title>
+            <author>Jane Austen</author>
+            <year>1813</year>
+            <price>7.99</price>
+            <genre>Romance</genre>
+            <pages>432</pages>
+            <publisher>T. Egerton</publisher>
+        </book>
+    </books>
+</library>
